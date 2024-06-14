@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: dimgrey;
+            margin: 0px;
+        }
+       header{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: beige;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+    
+       }
+
+       h1{
+        text-align: center;
+       }
+
+
+       main{
+        background-color: beige;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.384);
+       }
+
+       footer{
+        background-color: lightslategray;
+        margin: 10px ;
+        text-align: center;
+       }
+
+       nav{
+        background-color: lightslategray;
+        padding: 10px;
+       }
+
+       nav > a{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+       }
+
+       nav > a:hover {
+        text-decoration: underline;
+        
+       }
+
+       footer > p {
+        margin: 0px;
+       }
+    </style>
+</head>
+<body>      
+    <header>       
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header> 
+
+
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus inventore omnis fugiat culpa! Commodi laborum vel dolorum, et voluptatem cumque ea a eos ab esse, quo inventore quibusdam facere.</p>
+                <aside>
+                    <p>Escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+            <p>Desenvolvendo pelo cursoemvideo</p>
+    </footer>
+</body>
+</html>
