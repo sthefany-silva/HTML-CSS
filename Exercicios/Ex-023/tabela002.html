@@ -28,10 +28,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption style="background-color: gainsboro; padding: 10px; font-weight: bold;">População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -50,8 +51,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td>XXX</td>
+                <th scope="row">Total de habitantes</th>
+                <td >XXX</td>
             </tr>
         </tfoot>
     </table>
