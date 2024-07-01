@@ -19,9 +19,19 @@
         border: 1px solid black;
         padding: 10px;
     }
+    
+
+    thead tr th{
+        position: sticky;
+        top: 0;
+    }
+
+    tbody > tr:nth-child(odd){
+        background-color: gray;
+    }
 
     thead, tfoot{
-        background-color: gray;
+        background-color:rgba(0, 0, 0, 0.76);
         color: aliceblue;
     }
 </style>
@@ -47,6 +57,18 @@
                 <tr>
                     <td>Rio de Janeiro</td>
                     <td>17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td>XXX</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td>XXX</td>
+                </tr>
+                <tr>
+                    <td>Ronaima</td>
+                    <td>XXX</td>
                 </tr>
         </tbody>
         <tfoot>
