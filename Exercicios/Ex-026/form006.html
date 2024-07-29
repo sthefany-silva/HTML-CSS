@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Exemplo de formulário</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icor"></label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+            <!--Botão para escolher uma cor-->
+        </p>
+        <p>
+            <label for="inivel"> Nível de satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10"> <!-- botão deslizante de nível-->
+        </p>
+        <p>
+            <label for="ifoto">Foto de perfil</label>
+            <input type="file" name="foto" id="ifoto">
+            <!-- Botão para anexar arquivos
+            quando utilizar envio de arquivos, nao pode usar o metodo get e sim o post-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
